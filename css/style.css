@@ -8,6 +8,7 @@ h1{
 }
 
 .survolimage{
+	max-width:30%;
     transition: all 1s;
     opacity:0;
 	z-index: 1;
@@ -29,13 +30,13 @@ div img{
 
 #imgGO{
     position : absolute;
-    top:25%;
+    top:50%;
 	left:5%;
 }
 
 #imgPiano{
     position : absolute;
-    top:25%;
+    top:50%;
 	left:60%;
 }
 
