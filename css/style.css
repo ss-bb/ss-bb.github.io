@@ -26,6 +26,7 @@ div img{
 	display: block;
 	clear: both;
 	z-index:1;
+	width:15%
 }
 
 #imgGO{
@@ -37,13 +38,13 @@ div img{
 #imgPiano{
     position : absolute;
     top:50%;
-	left:60%;
+	left:80%;
 }
 
 #imgActiv{
     position : absolute;
-    top:5%;
-	left:35%;
+    top:10%;
+	left:42.5%;
 }
 
 
