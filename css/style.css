@@ -7,5 +7,17 @@ h1{
 	color:#ffffff;
 }
 
+.survolimage{
+    transition: all 1s;
+    opacity:0;
+}
+
+
+.survolimage:hover{
+    -webkit-transform:scale(2);
+    transform:scale(1.2);
+    opacity:1;
+}
+
 
 
