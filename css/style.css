@@ -27,4 +27,22 @@ div img{
 	z-index:1;
 }
 
+#imgGO{
+    position : absolute;
+    top:25%;
+	left:5%;
+}
+
+#imgPiano{
+    position : absolute;
+    top:25%;
+	left:60%;
+}
+
+#imgActiv{
+    position : absolute;
+    top:5%;
+	left:35%;
+}
+
 
