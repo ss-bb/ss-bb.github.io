@@ -10,6 +10,7 @@ h1{
 .survolimage{
     transition: all 1s;
     opacity:0;
+	z-index: 1;
 }
 
 
@@ -17,7 +18,11 @@ h1{
     -webkit-transform:scale(2);
     transform:scale(1.2);
     opacity:1;
+	z-index: 3;
 }
 
+div img{
+z-index:1;
+}
 
 
