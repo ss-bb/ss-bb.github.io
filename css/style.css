@@ -22,7 +22,9 @@ h1{
 }
 
 div img{
-z-index:1;
+	display: block;
+	clear: both;
+	z-index:1;
 }
 
 
