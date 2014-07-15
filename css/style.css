@@ -31,19 +31,19 @@ div img{
 #imgGO{
     position : absolute;
     top:50%;
-	left:40%;
+	left:35%;
 }
 
 #imgPiano{
     position : absolute;
     top:50%;
-	left:50%;
+	left:60%;
 }
 
 #imgActiv{
     position : absolute;
-    top:10%;
-	left:60%;
+    top:20%;
+	left:50%;
 }
 
 
