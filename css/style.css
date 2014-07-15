@@ -30,18 +30,21 @@ div img{
 
 #imgGO{
     position : absolute;
+    width: 20%;
     top:50%;
 	left:35%;
 }
 
 #imgPiano{
     position : absolute;
+    width: 20%;
     top:50%;
 	left:60%;
 }
 
 #imgActiv{
     position : absolute;
+    width: 20%;
     top:20%;
 	left:50%;
 }
