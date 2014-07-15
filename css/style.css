@@ -8,7 +8,9 @@ h1{
 }
 
 .survolimage{
-    transition: all 1s;
+    margin-left: -20px;
+    margin-top: -20px;
+    transition: all 1s ease-in-out 0s;
     opacity:0;
 	z-index: 3;
 }
