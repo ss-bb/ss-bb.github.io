@@ -2,11 +2,6 @@ body{
     background-color: #444444;
 }
 
-h1{
-	text-align: center;
-	color:#ffffff;
-}
-
 .survolimage{
     margin-left: -40px;
     margin-top: -40px;
@@ -56,9 +51,15 @@ div img{
     display:inline;
     position:absolute;
     top:80%;
-    width:50%;
-    left:25%;
-    font-family: Helvetica;
+    width:100%;
+    text-align: center;
+}
+
+#MenuBas a{
+    margin-right : 30px;
+    color:white;
+    font:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16;
 }
 
 #titre{
@@ -67,4 +68,5 @@ div img{
     width:30%;
     font-family: Monaco;
     left:35%;
+    color:#ffffff;
 }
