@@ -53,6 +53,7 @@ div img{
 }
 
 #MenuBas{
+    display:inline;
     position:absolute;
     top:80%;
     width:50%;
