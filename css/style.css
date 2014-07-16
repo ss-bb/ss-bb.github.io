@@ -8,8 +8,8 @@ h1{
 }
 
 .survolimage{
-    margin-left: -20px;
-    margin-top: -20px;
+    margin-left: -40px;
+    margin-top: -40px;
     transition: all 1s ease-in-out 0s;
     opacity:0;
 	z-index: 3;
@@ -52,4 +52,18 @@ div img{
 	left:40%;
 }
 
+#MenuBas{
+    position:absolute;
+    top:80%;
+    width:50%;
+    left:25%;
+    font-family: Helvetica;
+}
 
+#titre{
+    position : absolute;
+    top:5%;
+    width:30%;
+    font-family: Monaco;
+    left:35%;
+}
