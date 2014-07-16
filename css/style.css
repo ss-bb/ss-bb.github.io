@@ -30,23 +30,26 @@ div img{
 
 #imgGO{
     position : absolute;
-    width: 20%;
-    top:50%;
-	left:35%;
+    width: 30%;
+    height:30%;
+    top:40%;
+	left:25%;
 }
 
 #imgPiano{
     position : absolute;
-    width: 20%;
-    top:50%;
-	left:60%;
+    width: 30%;
+    height:30%;
+    top:40%;
+	left:50%;
 }
 
 #imgActiv{
     position : absolute;
-    width: 20%;
-    top:20%;
-	left:50%;
+    width: 30%;
+    height:30%;
+    top:30%;
+	left:55%;
 }
 
 
