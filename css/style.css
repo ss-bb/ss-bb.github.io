@@ -59,7 +59,7 @@ div img{
     margin-right : 30px;
     color:white;
     font:"Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16;
+    font-size: x-large;
 }
 
 #titre{
@@ -67,6 +67,6 @@ div img{
     position : absolute;
     top:5%;
     width:100%;
-    font-family: Monaco;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
     color:white;
 }
