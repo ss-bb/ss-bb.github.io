@@ -5,6 +5,7 @@
 //DEFI ACCEPTER : METTRE UN GOTO :).
 function Goto(valeur){
     var debuturl = window.location.origin;
+    console.log(debuturl);
     switch(valeur){
         case 1:window.location=debuturl+"/Professionnel.html";break;
         case 2:window.location=debuturl+"/Piano.html";break;
