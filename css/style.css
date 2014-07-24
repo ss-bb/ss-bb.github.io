@@ -1,5 +1,5 @@
 body{
-    background-color: #444444;
+    background-color: #000000;
 }
 
 div img{
@@ -27,7 +27,7 @@ div img{
     transform:scale(1.2);
     opacity:1;
     z-index: 1;
-    box-shadow: 10px 10px 15px 0px #000000;
+    box-shadow: 10px 10px 10px #ff0000;
 }
 
 #imgGO{
