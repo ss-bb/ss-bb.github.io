@@ -1,5 +1,4 @@
 body{
-    background-color: #000000;
 }
 
 div img{
@@ -13,7 +12,6 @@ div img{
     width: 30%;
     height:35%;
 }
-
 
 .survolimage{
     cursor:pointer;
@@ -37,19 +35,19 @@ div img{
     z-index: 1;
 }
 
-#imgGO{
+.imgGO{
     position : absolute;
     top:40%;
 	left:15%;
 }
 
-#imgPiano{
+.imgPiano{
     position : absolute;
     top:20%;
     left:35%;
 }
 
-#imgActiv{
+.imgActiv{
     position : absolute;
     top:40%;
     left:55%;
@@ -81,4 +79,32 @@ div img{
 
 .img-circle{
     height: 100%;
+}
+
+#divgauche{
+    position:absolute;
+    width:33%;
+    left:0%;
+    height: 100%;
+    top:0%;
+    background-color: black;
+    z-index: -1;
+}
+#divmilieu{
+    position:absolute;
+    width:33%;
+    left:33%;
+    height: 100%;
+    top:0%;
+    background-color: black;
+    z-index: -1;
+}
+#divdroite{
+    position:absolute;
+    width:34%;
+    left:66%;
+    height: 100%;
+    top:0%;
+    background-color: black;
+    z-index: -1;
 }

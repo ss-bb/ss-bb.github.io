@@ -28,28 +28,31 @@
     <h1>Olivier GOYON</h1>
 </div>
 
+<div id="divgauche"></div>
+<div id="divmilieu"></div>
+<div id="divdroite"></div>
 
 <!-- DIV MOI -->
-<div id="imgGO" class="contentimage">
+<div class="imgGO contentimage">
       <img src="images/ProNB.png" class="img-circle" >
 </div>
-<div id="imgGO" class="survolimage">
+<div class="survolimage imgGO" onmouseover="changerfond(1)" onmouseout="annulerfond(1)">
 	<img src="images/ProCouleur.png" class="img-circle" onclick="Goto(1);">
 </div>
 
 <!-- DIV PIANO -->
-<div id="imgPiano" class="contentimage">
+<div class="contentimage imgPiano">
       <img src="images/PianoNB.png" class="img-circle" >
 </div>
-<div id="imgPiano" class="survolimage">
+<div class="survolimage imgPiano" onmouseover="changerfond(2)" onmouseout="annulerfond(2)">
 	<img src="images/PianoCouleur.png" class="img-circle" onclick="Goto(2);">
 </div>
 
 <!-- DIV Activity -->
-<div id="imgActiv" class="contentimage">
+<div class="contentimage imgActiv" >
       <img src="images/blanc.png" class="img-circle" >
 </div>
-<div id="imgActiv" class="survolimage">
+<div class="survolimage imgActiv" onmouseover="changerfond(3)" onmouseout="annulerfond(3)">
 	<img  src="images/trollface.png" class="img-circle" onclick="Goto(3);">
 </div>
 
@@ -58,6 +61,7 @@
 </div>
 
 <script type="text/javascript" src="js/redirection.js"></script>
+<script type="text/javascript" src="js/GestionFond.js"></script>
 
 </body>
 </html>
