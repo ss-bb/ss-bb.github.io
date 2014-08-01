@@ -2,7 +2,7 @@
  * Created by olivier on 18/07/14.
  */
 
-//DEFI ACCEPTER : METTRE UN GOTO :).
+//DEFI ACCEPTER : METTRE UN GOTO . Windows WIN :).
 function Goto(valeur){
     var debuturl = window.location.origin;
     switch(valeur){

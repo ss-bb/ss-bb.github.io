@@ -16,22 +16,23 @@ div img{
 
 
 .survolimage{
+    cursor:pointer;
     width: 30%;
     height:35%;
     max-height: 100%;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    transition: all 1s;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    transition: all 1.5s;
     opacity:0;
     z-index: 2;
 }
 
-.survolimage:hover{;
-    -webkit-transform: scale(1.2) rotate(180deg);
-    -moz-transform: scale(1.2) rotate(180deg);
-    -ms-transform: scale(1.2) rotate(180deg);
-    transform: scale(1.2) rotate(180deg);
+.survolimage:hover{
+    -webkit-transform: scale(1.2) rotate(360deg);
+    -moz-transform: scale(1.2) rotate(360deg);
+    -ms-transform: scale(1.2) rotate(360deg);
+    transform: scale(1.2) rotate(360deg);
     opacity:1;
     z-index: 1;
 }
