@@ -1,8 +1,14 @@
 ss-bb.github.io
 ===============
 
-hebergement d'un site personnel.
+hebergement d'un site personnel de test.
 
-Le site utilise Bootstrap , le code source est accesible et libre de droit.
+Celui-ci est séparer en 3 parties: pro / piano / autres (test fun de lib informatique surtout)
 
-ps : pour ceux qui font ctrl+a ctrl+c ctrl+v , merci de changer goyon olivier par ?votre nom?. (oui je sais, c'est pas facile).
+Objectif : le site ne doit être écrit que en HTML/CSS/JS avec un minimum de librairie tierce (backbone accepté parce que sinon c'est moche...ducoup JQUERY, mais je vais essayer de l'utiliser le moins possible).
+
+Le code source est accesible et libre de droit.
+
+l'image de fond du premier écran a été réalisé par Mr CHEMINAT Benjamin (3 min au chrono) : http://www.dmsml.com/
+
+Le site est toujours en création . Je vais y consacrer plus de temps en 2015!
