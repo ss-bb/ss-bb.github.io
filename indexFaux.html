@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="fr">
+    <meta name="robots" content="index,follow"/>
+    <meta name="google" content="noimageindex">
+    <meta name="Author" content="olivier goyon"/>
+    <meta name="Description" content="acceuil du site personelle de olivier GOYON"/>
+    <meta name="Keywords" content="olivier goyon, olivier GOYON , Olivier GOYON , OLIVIER GOYON , Accueil"/>
+    <meta name="Copyright" content="olivier goyon"/>
+    <meta name="Revisit-after" content="10 days"/>
+    <meta name="Expires" content="never"/>
+
+    <title>Accueil - Olivier GOYON</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div id="titre">
+    <h1>Olivier GOYON</h1>
+</div>
+
+<div id="divgauche"></div>
+<div id="divmilieu"></div>
+<div id="divdroite"></div>
+
+<!-- DIV MOI -->
+<div class="imgGO contentimage">
+    <img src="images/ProNB.png" class="img-circle" >
+</div>
+<div class="survolimage imgGO" onmouseover="changerfond(1)" onmouseout="annulerfond(1)">
+    <img src="images/ProCouleur.png" class="img-circle" onclick="Goto(1);">
+</div>
+
+<!-- DIV PIANO -->
+<div class="contentimage imgPiano">
+    <img src="images/PianoNB.png" class="img-circle" >
+</div>
+<div class="survolimage imgPiano" onmouseover="changerfond(2)" onmouseout="annulerfond(2)">
+    <img src="images/PianoCouleur.png" class="img-circle" onclick="Goto(2);">
+</div>
+
+<!-- DIV Activity -->
+<div class="contentimage imgActiv" >
+    <img src="images/blanc.png" class="img-circle" >
+</div>
+<div class="survolimage imgActiv" onmouseover="changerfond(3)" onmouseout="annulerfond(3)">
+    <img  src="images/trollface.png" class="img-circle" onclick="Goto(3);">
+</div>
+
+<div id="MenuBas">
+    <a href="Professionnel.html">Proffesionnel</a><a href="Piano.html">Piano</a><a href="News.html">Personnel</a>
+</div>
+
+<script type="text/javascript" src="js/redirection.js"></script>
+<script type="text/javascript" src="js/GestionFond.js"></script>
+
+</body>
+</html>
